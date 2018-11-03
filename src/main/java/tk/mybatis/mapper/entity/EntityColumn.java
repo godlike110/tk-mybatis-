@@ -76,7 +76,7 @@ public class EntityColumn {
     }
 
     public String getColumn() {
-        return column;
+        return "`"+column+"`";
     }
 
     public void setColumn(String column) {
